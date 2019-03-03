@@ -3,7 +3,7 @@ const menuBtn= document.querySelector('.menu-btn');
 const menu= document.querySelector('.menu');
 const menuNav= document.querySelector('.menu-nav');
 const menuBranding= document.querySelector('.menu-branding');
-const NavItems= document.querySelectorAll('.nav-items');
+const NavItems= document.querySelectorAll('.nav-item');
 
 //set initial state of menu
 let showMenu= false;
@@ -31,3 +31,5 @@ function toggleMenu(){
         showMenu = false;
     }
 }
+
+
